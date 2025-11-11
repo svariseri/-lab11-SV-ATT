@@ -14,7 +14,7 @@ def square_root(a):
         print(ValueError)
 
 def hypotenuse(a,b):
-    return math.hypoth(a,b)
+    return math.hypot(a,b)
 
 def add(a, b): return a+b
 def sub (a,b): return a-b
