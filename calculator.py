@@ -8,10 +8,13 @@ import math
 # First example
 def square_root(a):
     try:
-        c=math.sqrt(a)
-        return c
+        if a > 0:
+            c=math.sqrt(a)
+            return c
+        else:
+            raise ValueError
     except ValueError:
-        print(ValueError)
+        raise ValueError
 
 def hypotenuse(a,b):
     return math.hypot(a,b)
@@ -32,7 +35,7 @@ def log (a,b):
         c=math.log(b,a)
         return c
     except ValueError:
-        print(ValueError)
+        raise ValueError
 def exp(a,b):
     return a**b
 
