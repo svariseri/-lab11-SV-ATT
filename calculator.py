@@ -24,10 +24,13 @@ def sub (a,b): return a-b
 def mul(a,b): return a*b
 def div(a,b):
     try:
-        c=b/a
-        return c
+        if a!=0:
+            c=b/a
+            return c
+        else:
+            raise ZeroDivisionError
     except ZeroDivisionError:
-        print(ZeroDivisionError)
+        raise ZeroDivisionError
 
 
 def log (a,b):
