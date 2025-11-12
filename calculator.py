@@ -1,12 +1,14 @@
+#https://github.com/svariseri/-lab11-SV-ATT
+#Partner 1: Sreesha Variseri
+#Partner 2: An Tuan Tran
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-github_comment= "https://github.com/svariseri/-lab11-SV-ATT.git"
-#Partner 1: Sreesha Variseri
-#Partner 2: An Tuan Tran
+
 import math
 # First example
 def square_root(a):

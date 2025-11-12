@@ -1,8 +1,12 @@
+#https://github.com/svariseri/-lab11-SV-ATT
+#Partner 1: Sreesha Variseri
+#Partner 2: An Tuan Tran
+
+
 import unittest
 from calculator import *
-#https://github.com/svariseri/-lab11-SV-ATT.git
-github_comment= "https://github.com/svariseri/-lab11-SV-ATT.git"
-#Partner 2: An Tuan Tran
+
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
