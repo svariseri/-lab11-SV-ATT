@@ -1,7 +1,7 @@
 import unittest
 from calculator import *
 #https://github.com/svariseri/-lab11-SV-ATT.git
-#Partner 1: Sreesha Variseri
+github_comment= "https://github.com/svariseri/-lab11-SV-ATT.git"
 #Partner 2: An Tuan Tran
 
 class TestCalculator(unittest.TestCase):
